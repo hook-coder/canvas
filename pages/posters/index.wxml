@@ -1,0 +1,11 @@
+<view class="wrap">
+	<view class="close-header" bindtap="goBack" style="top: {{headerInfo.top + 3}}px;">
+		<van-icon name="arrow-left" />
+	</view>
+	<block wx:if="{{imgFilePath}}">
+		<image bindlongpress="handlePhotoSave" bindtap="handlePreviewPhoto" src="{{imgFilePath}}" mode="widthFix" id="img"></image>
+	</block>
+	<block wx:else>
+		<canvas type="2d" id="myCanvas" style="width:{{width}};height:{{height}};"></canvas>
+	</block>
+</view>

@@ -1,0 +1,16 @@
+.wrap{
+    display: flex;
+    flex-direction: column;
+}
+image{
+    width: 100%;
+    height: 100%;
+}
+.close-header{
+    color: #fff;
+    font-size: 40rpx;
+    padding: 0 20rpx;
+    position: fixed;
+    top: 0;
+    left: 0;
+}

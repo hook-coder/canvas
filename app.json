@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/posters/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "hook",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2"
+}
